@@ -60,15 +60,15 @@ PING_URL = getenv("PING_URL", "")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/TrickBySaqib/PulseMusic",
+    "https://t.me/SaitamaBots",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", ""
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Zcziiyy")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/DEVTAL")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/SaitamaBots")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/CumBid")
 
 
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -92,7 +92,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 21474836480))
 BASE_URL = getenv("BASE_URL", "https://babyapi.pro")
 API_KEY = getenv("API_KEY", None)
 # Get your pyrogram v2 session from @Shsusu_bot on Telegram
-STRING1 = getenv("STRING_SESSION", "BQD7IGgARZlAB1lCIrHI1TFZlaT1oQafB_ADnYhMLFcT3N5-utYkkPHx8BZHxege07D0DRHke2f-0PDPlKWeV6Us4AIi7hF2rtuU7yiEC_I5sHdqeN958ug4XF_9pHCwUqmke12c5csZa6MCIJ8ooGCg8Ndo5ABvtvxDAOVMyFOayk47iaJoYzBN5JQpmozzd_euToUIuWzpTmt7pjJ-6XB04u4RTE_MY6Ox3ey9jqwUKwRIJAdgb_4QRXWDyqYOSGjrWr1putbJC4yVx99En0EUcesfHmMzo-wFWg9oqhU382AqmDbBIPxpl2KbWsbiTqIWLiGhKgFu0_Xi59nb-7N3Ij_qowAAAAHFA_aoAA")
+STRING1 = getenv("STRING_SESSION", "BQIptIoAhVP9va2LHt9zbGQfd1UE_pttj9j3w87D9d-mXr_J13bwatwrZkTQDO8ane1tm837LbPPVVRwLdfN9TnmmR3UuulXkBsjnpFjlXc0BMAYBT0U4lvsZUS8MdvAqK39-1Fvyes1rFFspEE-WK5dDBDBvyZj1PzorHRF2Y18pVZZW7J7xIzxXOSwxCzy7eigpg9eez4zOes6yMXAdL1PGxw7jvngkoC-C9EVaxDsCdmr17NDB9iyWtcjWWR4SBUU3g8QXjd8oxzteM0fIDDRRbgSgjJIIchRj75rMYPsD2GOv0ArcN5f41C85Gk8QVv6qvfnfK1wBQCLvGubK3vUraW_9gAAAAFd3pLuAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
