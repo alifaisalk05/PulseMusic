@@ -32,7 +32,7 @@ API_ID = int(getenv("API_ID", "37250527"))
 
 API_HASH = getenv("API_HASH", "2ecd2b1fb1ae510ab055f75d4700c92d)
 
-BOT_TOKEN = getenv("BOT_TOKEN", "8643566517:AAEB6kiysM6RCzizQVQqeViZHTOv-V9Tikw")#
+BOT_TOKEN = getenv("BOT_TOKEN", "")#
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://arl4ego2zasdev_db_user:2eGkXah0V5Yl56qy@cluster0.hfecvau.mongodb.net/?appName=Cluster0")
 
@@ -92,7 +92,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 21474836480))
 BASE_URL = getenv("BASE_URL", "https://babyapi.pro")
 API_KEY = getenv("API_KEY", None)
 # Get your pyrogram v2 session from @Shsusu_bot on Telegram
-STRING1 = getenv("STRING_SESSION", "BQIptIoAhVP9va2LHt9zbGQfd1UE_pttj9j3w87D9d-mXr_J13bwatwrZkTQDO8ane1tm837LbPPVVRwLdfN9TnmmR3UuulXkBsjnpFjlXc0BMAYBT0U4lvsZUS8MdvAqK39-1Fvyes1rFFspEE-WK5dDBDBvyZj1PzorHRF2Y18pVZZW7J7xIzxXOSwxCzy7eigpg9eez4zOes6yMXAdL1PGxw7jvngkoC-C9EVaxDsCdmr17NDB9iyWtcjWWR4SBUU3g8QXjd8oxzteM0fIDDRRbgSgjJIIchRj75rMYPsD2GOv0ArcN5f41C85Gk8QVv6qvfnfK1wBQCLvGubK3vUraW_9gAAAAFd3pLuAA")
+STRING1 = getenv("STRING_SESSION", "")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
