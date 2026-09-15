@@ -32,7 +32,7 @@ API_ID = int(getenv("API_ID", "37250527"))
 
 API_HASH = getenv("API_HASH", "2ecd2b1fb1ae510ab055f75d4700c92d)
 
-BOT_TOKEN = getenv("BOT_TOKEN", "7000859933:AAEnaU9196qHT0bSyaoqROwmc_XCImYhP4E")#
+BOT_TOKEN = getenv("BOT_TOKEN", "8643566517:AAEB6kiysM6RCzizQVQqeViZHTOv-V9Tikw")#
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://PulseNew:Mongo@cluster0.zllsvlo.mongodb.net/?appName=Cluster0")
 
@@ -44,9 +44,9 @@ SONG_DOWNLOAD_DURATION = int(
 
 LOGGER_ID = int(getenv("LOGGER_ID", "-1002022622141"))
 
-OWNER_ID = int(getenv("OWNER_ID", "6625936112"))
+OWNER_ID = int(getenv("OWNER_ID", "312928333"))
 
-BOT_USERNAME = getenv("BOT_USERNAME" , "@Syn_Ixbot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "@SaitamaMusicBot")
 
 COMMAND_HANDLER = getenv("COMMAND_HANDLER", "! / .").split() + [""]
 
@@ -54,7 +54,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
-RENDER = getenv("RENDER", "False").lower() == "true"
+RENDER = getenv("RENDER", "true").lower() == "true"
 
 PING_URL = getenv("PING_URL", "")
 
