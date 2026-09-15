@@ -28,9 +28,9 @@ from pyrogram import filters
 load_dotenv()
 
 
-API_ID = int(getenv("API_ID", "16457832"))
+API_ID = int(getenv("API_ID", "37250527"))
 
-API_HASH = getenv("API_HASH", "3030874d0befdb5d05597deacc3e83ab")
+API_HASH = getenv("API_HASH", "2ecd2b1fb1ae510ab055f75d4700c92d)
 
 BOT_TOKEN = getenv("BOT_TOKEN", "7000859933:AAEnaU9196qHT0bSyaoqROwmc_XCImYhP4E")#
 
@@ -112,10 +112,10 @@ clean = {}
 autoclean = []
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://files.catbox.moe/kzcoir.jpg"
+    "START_IMG_URL", "https://i.postimg.cc/50TKL4Mt/is-there-a-possibility-that-saitama-will-reconnect-with-his-v0-a68r1dfui7ce1.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://graph.org/file/ac589b90138d32ef749e3-7182273a0f23f0c76e.jpg"
+    "PING_IMG_URL", "https://i.postimg.cc/50TKL4Mt/is-there-a-possibility-that-saitama-will-reconnect-with-his-v0-a68r1dfui7ce1.jpg"
 )
 PLAYLIST_IMG_URL = "https://graph.org/file/8b3614b932b12996c6378-5fff06ef0dee7a3106.jpg"
 STATS_IMG_URL = "https://graph.org/file/8b3614b932b12996c6378-5fff06ef0dee7a3106.jpg"
